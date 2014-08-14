@@ -12,7 +12,7 @@ npm install object-transformer
 #Example
 
 ```javascript
-var Transformer = require('./transformer');
+var Transformer = require('object-transformer');
 
 var models = [
     {
