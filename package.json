@@ -1,6 +1,6 @@
 {
     "name": "object-transformer",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "repository": "https://github.com/manuelvulp/object-transformer",
     "homepage": "https://github.com/manuelvulp/object-transformer",
     "description": "Javascript object transformer",
@@ -33,9 +33,19 @@
         "coverage": "mocha --require blanket --require must --reporter html-cov test/**/*.js > coverage.html",
         "coveralls": "mocha --require blanket --require must --reporter mocha-lcov-reporter test/**/*.js | coveralls"
     },
+    "data-cover-never": [
+        "node_modules",
+        "test"
+    ],
     "config": {
         "blanket": {
-            "pattern": "src/"
+            "pattern": [
+                "src/"
+            ],
+            "data-cover-never": [
+                "node_modules",
+                "test"
+            ]
         }
     }
 }
