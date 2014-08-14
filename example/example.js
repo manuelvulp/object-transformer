@@ -9,7 +9,7 @@ var models = [
             address: {
                 street: 'FooStreet',
                 house: 1,
-                appartment: 2
+                apartment: 2
             }
         },
         message: 'bar'
@@ -22,7 +22,7 @@ var models = [
             address: {
                 street: 'BarStreet',
                 house: 3,
-                appartment: 4
+                apartment: 4
             }
         },
         message: 'baz'
@@ -54,7 +54,7 @@ console.log(list);
         address: {
             street: 'FooStreet',
             house: 1,
-            appartment: 2
+            apartment: 2
         }
     },
     { 
@@ -62,7 +62,7 @@ console.log(list);
         address: {
             street: 'BarStreet',
             house: 3,
-            appartment: 4
+            apartment: 4
         }
     }
 ]

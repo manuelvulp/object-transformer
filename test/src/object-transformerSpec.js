@@ -17,7 +17,7 @@ describe('Transformer', function () {
                 address: {
                     street: 'FooStreet',
                     house: 1,
-                    appartment: 2
+                    apartment: 2
                 }
             },
             message: 'bar'
@@ -33,7 +33,7 @@ describe('Transformer', function () {
                     address: {
                         street: 'BarStreet',
                         house: 3,
-                        appartment: 4
+                        apartment: 4
                     }
                 },
                 message: 'baz'
