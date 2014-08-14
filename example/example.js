@@ -1,4 +1,4 @@
-var Transformer = require('./transformer');
+var Transformer = require('../src/object-transformer');
 
 var models = [
     {
