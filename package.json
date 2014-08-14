@@ -1,11 +1,11 @@
 {
     "name": "object-transformer",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "repository": "https://github.com/manuelvulp/object-transformer",
     "homepage": "https://github.com/manuelvulp/object-transformer",
     "description": "Javascript object transformer",
     "main": "index",
-    "keywords": ["node", "object", "transformer", "parser"],
+    "keywords": ["node", "object", "transform", "transformer", "parse", "parser", "format", "formatter", "schema", "model", "database"],
     "directories": {
         "example": "example"
     },
